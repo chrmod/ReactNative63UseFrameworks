@@ -11,15 +11,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		156417B81D73EE56D3A3FB38 /* libPods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE04D42213AB4820404A193 /* libPods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ReactNative63UseFrameworksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNative63UseFrameworksTests.m */; };
-		2F49C136B7C6893C0F3E76D3 /* libPods-ReactNative63UseFrameworks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F0A4021A385FCA2DB32217 /* libPods-ReactNative63UseFrameworks.a */; };
-		323825F0028FA2550BF0BABC /* libPods-ReactNative63UseFrameworks-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0B1CC2CA6ACE6E24D6ED53 /* libPods-ReactNative63UseFrameworks-tvOSTests.a */; };
-		6AD113DD6B1B6A762AD12C96 /* libPods-ReactNative63UseFrameworks-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF84A696FF98E42A06EF860 /* libPods-ReactNative63UseFrameworks-tvOS.a */; };
+		3489BDA163A0ED5186C4055B /* Pods_ReactNative63UseFrameworks_ReactNative63UseFrameworksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B11FF29EC6D36373A372C1 /* Pods_ReactNative63UseFrameworks_ReactNative63UseFrameworksTests.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8BEF961095BF6164BF58B54B /* Pods_ReactNative63UseFrameworks_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C820A1419B67F899D2FBC635 /* Pods_ReactNative63UseFrameworks_tvOS.framework */; };
+		BEB4A8D21CD632F6146E9E2D /* Pods_ReactNative63UseFrameworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09512E57CB41B3972D0BB4B4 /* Pods_ReactNative63UseFrameworks.framework */; };
+		F44104F01B11BD0FC6A7F273 /* Pods_ReactNative63UseFrameworks_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5941EA07C6124FEE26B1FE69 /* Pods_ReactNative63UseFrameworks_tvOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,7 @@
 		00E356EE1AD99517003FC87E /* ReactNative63UseFrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNative63UseFrameworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactNative63UseFrameworksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNative63UseFrameworksTests.m; sourceTree = "<group>"; };
+		09512E57CB41B3972D0BB4B4 /* Pods_ReactNative63UseFrameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNative63UseFrameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* ReactNative63UseFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNative63UseFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNative63UseFrameworks/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNative63UseFrameworks/AppDelegate.m; sourceTree = "<group>"; };
@@ -54,15 +55,14 @@
 		2D02E47B1E0B4A5D006451C7 /* ReactNative63UseFrameworks-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNative63UseFrameworks-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ReactNative63UseFrameworks-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNative63UseFrameworks-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A6A70EF578BDF92C1B54DD /* Pods-ReactNative63UseFrameworks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative63UseFrameworks.debug.xcconfig"; path = "Target Support Files/Pods-ReactNative63UseFrameworks/Pods-ReactNative63UseFrameworks.debug.xcconfig"; sourceTree = "<group>"; };
-		49F0A4021A385FCA2DB32217 /* libPods-ReactNative63UseFrameworks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNative63UseFrameworks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B11FF29EC6D36373A372C1 /* Pods_ReactNative63UseFrameworks_ReactNative63UseFrameworksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNative63UseFrameworks_ReactNative63UseFrameworksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A1081A9DB0BD6D1E58604D /* Pods-ReactNative63UseFrameworks-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative63UseFrameworks-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNative63UseFrameworks-tvOSTests/Pods-ReactNative63UseFrameworks-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5941EA07C6124FEE26B1FE69 /* Pods_ReactNative63UseFrameworks_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNative63UseFrameworks_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A258D3C2D172A42A905A8F /* Pods-ReactNative63UseFrameworks-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative63UseFrameworks-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNative63UseFrameworks-tvOSTests/Pods-ReactNative63UseFrameworks-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		7F0B1CC2CA6ACE6E24D6ED53 /* libPods-ReactNative63UseFrameworks-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNative63UseFrameworks-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNative63UseFrameworks/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883A615A3CF450B7560EA36A /* Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8DF84A696FF98E42A06EF860 /* libPods-ReactNative63UseFrameworks-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNative63UseFrameworks-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FE04D42213AB4820404A193 /* libPods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4398E204DEDB5CE5CD0EE08 /* Pods-ReactNative63UseFrameworks-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative63UseFrameworks-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNative63UseFrameworks-tvOS/Pods-ReactNative63UseFrameworks-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C820A1419B67F899D2FBC635 /* Pods_ReactNative63UseFrameworks_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNative63UseFrameworks_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E134A248251BB4D47FE978 /* Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.release.xcconfig"; sourceTree = "<group>"; };
 		E4B44D96345720E45F8B7A71 /* Pods-ReactNative63UseFrameworks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative63UseFrameworks.release.xcconfig"; path = "Target Support Files/Pods-ReactNative63UseFrameworks/Pods-ReactNative63UseFrameworks.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				156417B81D73EE56D3A3FB38 /* libPods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.a in Frameworks */,
+				3489BDA163A0ED5186C4055B /* Pods_ReactNative63UseFrameworks_ReactNative63UseFrameworksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F49C136B7C6893C0F3E76D3 /* libPods-ReactNative63UseFrameworks.a in Frameworks */,
+				BEB4A8D21CD632F6146E9E2D /* Pods_ReactNative63UseFrameworks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AD113DD6B1B6A762AD12C96 /* libPods-ReactNative63UseFrameworks-tvOS.a in Frameworks */,
+				8BEF961095BF6164BF58B54B /* Pods_ReactNative63UseFrameworks_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323825F0028FA2550BF0BABC /* libPods-ReactNative63UseFrameworks-tvOSTests.a in Frameworks */,
+				F44104F01B11BD0FC6A7F273 /* Pods_ReactNative63UseFrameworks_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				49F0A4021A385FCA2DB32217 /* libPods-ReactNative63UseFrameworks.a */,
-				8FE04D42213AB4820404A193 /* libPods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests.a */,
-				8DF84A696FF98E42A06EF860 /* libPods-ReactNative63UseFrameworks-tvOS.a */,
-				7F0B1CC2CA6ACE6E24D6ED53 /* libPods-ReactNative63UseFrameworks-tvOSTests.a */,
+				09512E57CB41B3972D0BB4B4 /* Pods_ReactNative63UseFrameworks.framework */,
+				45B11FF29EC6D36373A372C1 /* Pods_ReactNative63UseFrameworks_ReactNative63UseFrameworksTests.framework */,
+				C820A1419B67F899D2FBC635 /* Pods_ReactNative63UseFrameworks_tvOS.framework */,
+				5941EA07C6124FEE26B1FE69 /* Pods_ReactNative63UseFrameworks_tvOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5F88DB1DC0D4529E1BC10B8E /* [CP] Copy Pods Resources */,
+				9585F16497D063F97AE5260A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +231,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				DA4C60E48AD87BCF6283B13B /* [CP] Copy Pods Resources */,
+				98259EEF884B04A7CFA08130 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -391,24 +391,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5F88DB1DC0D4529E1BC10B8E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6C7BBA8DD8F15D19220711C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,22 +457,120 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA4C60E48AD87BCF6283B13B /* [CP] Copy Pods Resources */ = {
+		9585F16497D063F97AE5260A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNative63UseFrameworks/Pods-ReactNative63UseFrameworks-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNative63UseFrameworks/Pods-ReactNative63UseFrameworks-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests/Pods-ReactNative63UseFrameworks-ReactNative63UseFrameworksTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98259EEF884B04A7CFA08130 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNative63UseFrameworks/Pods-ReactNative63UseFrameworks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNative63UseFrameworks/Pods-ReactNative63UseFrameworks-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F7F00EF17DB88CD4893D7EBE /* [CP] Check Pods Manifest.lock */ = {
